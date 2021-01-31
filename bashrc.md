@@ -36,8 +36,10 @@ alias ....='cd ../../../../'
 alias ls='ls -lpa'
 
 ## GitHub
-alias gup='git add -A && read && git commit -m '
+alias gup='git add -A && git commit -m '
+alias gpsh='git push'
 alias gcln='git clone'
+alias gstat='git status'
 
 ## Switch Bash to ZSH Back and Forth
 alias bsh='chsh -s $(which bash)'
